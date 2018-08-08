@@ -1,0 +1,28 @@
+{
+  "name": "registro-de-visitantes",
+  "version": "0.1.0",
+  "description": "registro de visitantes coworking",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alppacat/Registro-de-visitantes.git"
+  },
+  "keywords": [
+    "firebase",
+    "css",
+    "javascript",
+    "html5"
+  ],
+  "author": "Ely Sandra Tzu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alppacat/Registro-de-visitantes/issues"
+  },
+  "homepage": "https://github.com/alppacat/Registro-de-visitantes#readme"
+}
