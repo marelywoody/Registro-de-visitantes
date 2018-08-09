@@ -1,13 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+  <title>Document</title>
+  <meta charset="UTF-8">
 </head>
+
 <body>
-    
-    <script src="src/js/app.js"></script>
+  <form id="formu">
+    <input type="text" id="name">
+    <input type="radio" name="genero" id="mujer">Mujer
+    <input type="radio" name="genero" id="hombre">Hombre
+    <input type="date" id="date">
+    <input type="button" value="Enviar" id="get">
+  </form>
+
+  <video id="player" controls autoplay></video>
+  <button id="capture">Capture</button>
+  <canvas id="snapshot" width=320 height=240></canvas>
+
+  <script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyDonGb_pXA2D3sBolcKYvRXUkmrfBeOf_Q",
+      authDomain: "registro-visitantes-coworking.firebaseapp.com",
+      databaseURL: "https://registro-visitantes-coworking.firebaseio.com",
+      projectId: "registro-visitantes-coworking",
+      storageBucket: "registro-visitantes-coworking.appspot.com",
+      messagingSenderId: "769598444792"
+    };
+    firebase.initializeApp(config);
+  </script>
+  <script src="app.js"></script>
+  <script src="database.js"></script>
+  <script src="mailgun.js"></script>
 </body>
+
 </html>
