@@ -1,0 +1,34 @@
+{
+  "empresa" : {
+    "appils" : [ {
+      "correo:" : "laura.unam.ents@gmail.com",
+      "nombre:" : "laura"
+    }, {
+      "correo:" : "mgg_pjl@yahoo.com",
+      "nombre:" : "miriam"
+    }, {
+      "correo:" : "pruebamarelyhdz@gmail.com",
+      "nombre:" : "elianet"
+    } ],
+    "banck" : [ {
+      "correo:" : "iamcorallium@gmail.com",
+      "nombre:" : "copelia"
+    }, {
+      "correo:" : "garciaivonne11@gmail.com",
+      "nombre:" : "ivon"
+    }, {
+      "correo:" : "rxm.strd@gmail.com",
+      "nombre:" : "rocio"
+    } ],
+    "laboratoria" : [ {
+      "correo:" : "vaniusha.ra@gmail.com",
+      "nombre:" : "vania "
+    }, {
+      "correo:" : "fvelueta@outlook.com",
+      "nombre:" : "francisca"
+    }, {
+      "correo:" : "gonzalez.c.raquel@gmail.com",
+      "nombre:" : "raquel"
+    } ]
+  }
+}
