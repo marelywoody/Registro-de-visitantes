@@ -15,6 +15,10 @@
     <input type="button" value="Enviar" id="get">
   </form>
 
+  <video id="player" controls autoplay></video>
+  <button id="capture">Capture</button>
+  <canvas id="snapshot" width=320 height=240></canvas>
+
   <script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
   <script>
     // Initialize Firebase
@@ -30,6 +34,7 @@
   </script>
   <script src="app.js"></script>
   <script src="database.js"></script>
+  <script src="mailgun.js"></script>
 </body>
 
 </html>
