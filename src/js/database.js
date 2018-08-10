@@ -9,10 +9,9 @@ window.onload = () => {
 };
 
 window.databases = {
-  registro: (name, date) => {
+  registro: (name) => {
     database.ref('/visitante/').push({
       name: name,
-      date: date
     });
   }
 };
