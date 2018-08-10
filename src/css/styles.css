@@ -3,10 +3,13 @@ body {
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
+     align-items: center;
+
 }
 
-#player {
+#canvas-snapshot {
  align-items: center;
+ justify-content: center;
 }
 
 
@@ -17,6 +20,14 @@ color:white;
 padding: 15px 32px;
 text-align: center;
 margin: 10px;
+ align-items: center;
+
+
+}
+#ocultar{
+    justify-content: center;
+    flex-grow: 1;
+     align-items: center;
 
 }
 
