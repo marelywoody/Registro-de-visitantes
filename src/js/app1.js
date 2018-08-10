@@ -7,7 +7,6 @@ var sonrie = document.getElementById('sonrie');
 siguiente2.style.display = 'none';
 snapshotCanvas.style.display = 'none';
 
-
 var handleSuccess = function(stream) {
   // Attach the video stream to the video element and autoplay.
   player.srcObject = stream;
@@ -28,7 +27,6 @@ captureButton.addEventListener('click', function() {
 siguiente2.addEventListener('click', function() {
   window.location.assign('view2.html');
 });
-
 
 navigator.mediaDevices.getUserMedia({ video: true })
   .then(handleSuccess);
