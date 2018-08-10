@@ -4,20 +4,27 @@
 <head>
   <title>Document</title>
   <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Hind|Raleway" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
+  <h1 class="text-center">Bienvenido a Coworking Terminal 1</h1>
+  <p>Ingresa tus datos:</p>
   <form id="formu">
-    <input type="text" id="name">
-    <input type="radio" name="genero" id="mujer">Mujer
-    <input type="radio" name="genero" id="hombre">Hombre
-    <input type="date" id="date">
-    <input type="button" value="Enviar" id="get">
-  </form>
 
-  <video id="player" controls autoplay></video>
-  <input type="button" value="capturar" id="capture">
-  <canvas id="snapshot" width=320 height=240></canvas>
+    <input type="text" id="name" placeholder="Nombre Completo" class="form-control offset-4">
+
+    <input type="text" id="email" placeholder="Correo Electronico" class="form-control offset-4">
+
+    <select id="company" class="form-control offset-4"></select>
+
+    <select id="company-person" class="form-control offset-4"></select>
+  
+    <input type="button" value="Siguiente" id="get" class="btn-styles">
+  </form>
 <script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
 <script>
   // Initialize Firebase
