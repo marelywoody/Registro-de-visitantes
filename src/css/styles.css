@@ -22,6 +22,7 @@ margin: 10px;
 form, p{
     flex-grow: 1;
     text-align: center;
+    font-family: 'Hind';
 }
 
 h1{
@@ -33,22 +34,4 @@ h1{
 
 #name, #email, #company ,#company-person{
   width: 27em;
-  position: relative;
-  left: 30em;
-  top: 1em;
-}
-
-#email{
-  position: relative;
-  top: 2em;
-}
-
-#company{ 
-  position: relative;
-  top: 3em;
-}
-
-#company-person{
-  position: relative;
-  top: 4em;
 }
