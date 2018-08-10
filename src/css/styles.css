@@ -1,0 +1,12 @@
+h1{
+  background-color: #49C0FA;
+  color: #ffffff;
+  font-family: 'Raleway';
+  height: 1.4em;
+}
+
+#name, #email,#company, #company-person {
+  width: 22em;
+  position: relative;
+  left: 14em;
+}
