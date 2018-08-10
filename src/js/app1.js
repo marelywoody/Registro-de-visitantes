@@ -6,6 +6,9 @@ var siguiente2 = document.getElementById('siguiente2');
 var sonrie = document.getElementById('sonrie');
 siguiente2.style.display = 'none';
 snapshotCanvas.style.display = 'none';
+let win = document.getElementById('win');
+let span = document.getElementsByClassName("close")[0];
+let info = document.getElementById('info');
 
 var handleSuccess = function(stream) {
   // Attach the video stream to the video element and autoplay.
@@ -22,6 +25,7 @@ captureButton.addEventListener('click', function() {
   siguiente2.style.display = 'block';
   sonrie.style.display = 'none';
   snapshotCanvas.style.display = 'block';
+  win.style.display = "block";
 });
 
 siguiente2.addEventListener('click', function() {
@@ -30,3 +34,12 @@ siguiente2.addEventListener('click', function() {
 
 navigator.mediaDevices.getUserMedia({ video: true })
   .then(handleSuccess);
+
+  span.onclick = function() {
+    win.style.display = "none";
+  }
+  window.onclick = function(event) {
+    if (event.target == win) {
+        win.style.display = "none";
+    }
+  }
