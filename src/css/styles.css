@@ -2,8 +2,20 @@ body {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    justify-content: center;
+     align-items: center;
+
 }
 
+#canvas-snapshot {
+ align-items: center;
+ justify-content: center;
+}
+
+.form-control {
+    text-align: center;
+    margin: 0;
+}
 .btn-styles{
 background-color: #67BBE8;
 border-radius: 20px;
@@ -12,6 +24,16 @@ padding: 15px 32px;
 text-align: center;
 margin: 10px;
 
+
+}
+
+#get {
+margin-left: 80px;}
+#ocultar{
+    justify-content: center;
+    flex-grow: 1;
+     align-items: center;
+
 }
 
 .btn-styles:hover{
@@ -19,10 +41,14 @@ margin: 10px;
   transform: translate3D(0, -2px, 0);
 }
 
-form, p{
+p{
     flex-grow: 1;
     text-align: center;
     font-family: 'Hind';
+}
+#formu{
+    flex-grow: 1;
+justify-content: center;
 }
 
 h1{
@@ -32,8 +58,8 @@ h1{
   height: 1.4em;
 }
 
-
-
 #name, #email, #company ,#company-person{
-  width: 27em;
+    text-align: center;
+    align-items: center;
+  width: 18em;
 }
