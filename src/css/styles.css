@@ -13,7 +13,8 @@ body {
 }
 
 .form-control {
-    align-items: center;
+    text-align: center;
+    margin: 0;
 }
 .btn-styles{
 background-color: #67BBE8;
@@ -22,10 +23,12 @@ color:white;
 padding: 15px 32px;
 text-align: center;
 margin: 10px;
- align-items: center;
 
 
 }
+
+#get {
+margin-left: 80px;}
 #ocultar{
     justify-content: center;
     flex-grow: 1;
@@ -41,9 +44,11 @@ margin: 10px;
 p{
     flex-grow: 1;
     text-align: center;
+    font-family: 'Hind';
 }
 #formu{
-    align-items: center;
+    flex-grow: 1;
+justify-content: center;
 }
 
 h1{
@@ -56,23 +61,5 @@ h1{
 #name, #email, #company ,#company-person{
     text-align: center;
     align-items: center;
-  width: 27em;
-  /* position: relative; */
-  left: 30em;
-  top: 1em;
-}
-
-#email{
-  /* position: relative; */
-  top: 2em;
-}
-
-#company{ 
-  /* position: relative; */
-  top: 3em;
-}
-
-#company-person{
-  /* position: relative; */
-  top: 4em;
+  width: 18em;
 }
