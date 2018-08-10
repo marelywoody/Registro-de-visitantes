@@ -2,7 +2,6 @@
 var player = document.getElementById('player');
 var snapshotCanvas = document.getElementById('snapshot');
 var captureButton = document.getElementById('capture');
-var btnNext = document.getElementById('btn-next');
 var sonrie = document.getElementById('sonrie');
 let win = document.getElementById('win');
 let span = document.getElementsByClassName('close')[0];
@@ -21,15 +20,9 @@ captureButton.addEventListener('click', function() {
     snapshotCanvas.height);
   player.style.display = 'none';
   captureButton.style.display = 'none';
-  btnNext.style.display = 'block';
   sonrie.style.display = 'none';
   infoFunction();
-
   win.style.display = 'block';
-});
-
-btnNext.addEventListener('click', function() {
-  window.location.assign('../index.html');
 });
 
 navigator.mediaDevices.getUserMedia({ video: true })
@@ -48,5 +41,9 @@ infoFunction = () => {
   info.innerHTML = `<h2>Tu registro ha sido exitoso</h2>
   <p>Se le ha notificado a la persona de tu visita</p>
   <button class = "btn-styles" id= "btnFinal"></button>`;
+  var btnNext = document.getElementById('btnFinal');
+  btnNext.addEventListener('click', function() {
+    window.location.assign('../index.html');
+  });
 
 };
