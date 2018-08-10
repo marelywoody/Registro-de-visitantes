@@ -1,8 +1,10 @@
-let name = document.getElementById('name');
-let get = document.getElementById('get');
+const name = document.getElementById('name');
+const btnData = document.getElementById('btn-data');
+const email = document.getElementById('email');
 
-get.addEventListener('click', event => { 
+btnData.addEventListener('click', event => { 
   getName = name.value;
-  databases.registro(getName);
+  getEmail = email.value;
+  databases.registro(getName,getEmail);
   window.location.assign('../src/views/view.html');
 });
