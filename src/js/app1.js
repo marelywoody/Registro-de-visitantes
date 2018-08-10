@@ -2,18 +2,17 @@
 var player = document.getElementById('player');
 var snapshotCanvas = document.getElementById('snapshot');
 var captureButton = document.getElementById('capture');
-var siguiente2 = document.getElementById('siguiente2');
+var btnNext = document.getElementById('btn-next');
 var sonrie = document.getElementById('sonrie');
-siguiente2.style.display = 'none';
-snapshotCanvas.style.display = 'none';
 let win = document.getElementById('win');
-let span = document.getElementsByClassName("close")[0];
-let info = document.getElementById('info');
+let span = document.getElementsByClassName('close')[0];
+let info = document.getElementById('info-user');
 
 var handleSuccess = function(stream) {
   // Attach the video stream to the video element and autoplay.
   player.srcObject = stream;
 };
+snapshotCanvas.style.display = 'none';
 
 captureButton.addEventListener('click', function() {
   var context = snapshot.getContext('2d');
@@ -22,24 +21,32 @@ captureButton.addEventListener('click', function() {
     snapshotCanvas.height);
   player.style.display = 'none';
   captureButton.style.display = 'none';
-  siguiente2.style.display = 'block';
+  btnNext.style.display = 'block';
   sonrie.style.display = 'none';
-  snapshotCanvas.style.display = 'block';
-  win.style.display = "block";
+  infoFunction();
+
+  win.style.display = 'block';
 });
 
-siguiente2.addEventListener('click', function() {
-  window.location.assign('view2.html');
+btnNext.addEventListener('click', function() {
+  window.location.assign('../index.html');
 });
 
 navigator.mediaDevices.getUserMedia({ video: true })
   .then(handleSuccess);
 
-  span.onclick = function() {
-    win.style.display = "none";
+span.onclick = function() {
+  win.style.display = 'none';
+};
+window.onclick = function(event) {
+  if (event.target == win) {
+    win.style.display = 'none';
   }
-  window.onclick = function(event) {
-    if (event.target == win) {
-        win.style.display = "none";
-    }
-  }
+};
+
+infoFunction = () => {
+  info.innerHTML = `<h2>Tu registro ha sido exitoso</h2>
+  <p>Se le ha notificado a la persona de tu visita</p>
+  <button class = "btn-styles" id= "btnFinal"></button>`;
+
+};
