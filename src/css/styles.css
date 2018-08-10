@@ -2,7 +2,13 @@ body {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    justify-content: center;
 }
+
+#player {
+ align-items: center;
+}
+
 
 .btn-styles{
 background-color: #67BBE8;
