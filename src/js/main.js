@@ -45,5 +45,4 @@ infoFunction = () => {
   btnNext.addEventListener('click', event => {
     window.location.assign('../index.html');
   });
-
 };
