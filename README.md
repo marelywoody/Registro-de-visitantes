@@ -93,6 +93,8 @@ Conclusión:
 
 En resumen el registro no fue nada práctico ni agradable, se tiene que pasar por dos filtros los cuales hacen que  pierdas tiempo, sin contar que sin una identificación oficial no te permiten el acceso. Aunque se cuenta con el registro de manera digital se tiene que llevar el procedimiento arcaico del registro de bitácora (En este caso doblo vez, para poder acceder al edificio).
 
+![WeWork cliente incognito](src/assets/img/clienteIncognito.png)
+
 ### Benchmarck	
 
 Se realizó un comparativo con 4  diferentes registros de visitantes que se llevan a cabo de forma digital, para identificar su funcionamiento, y saber qué es lo que se ofrece al mercado.
@@ -147,7 +149,7 @@ Después de lo investigado se ha pensado en el desarrollo de una aplicación que
 ### Identidad
 
 ## FLUJO DE USUARIO
-![Tipografía ](src/assets/img/flujoUsuario.png)
+![Flujo usuario ](src/assets/img/flujoUsuario.png)
 
 ## IDEACIÓN Y VALIDACIÓN
 
