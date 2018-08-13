@@ -5,6 +5,7 @@ const email = document.getElementById('email');
 btnData.addEventListener('click', event => { 
   getName = name.value;
   getEmail = email.value;
-  databases.registro(getName,getEmail);
+  const getDate = (new Date).getTime();
+  databases.registro(getName, getEmail, getDate);
   window.location.assign('../src/views/view.html');
 });

@@ -10,10 +10,12 @@ window.onload = () => {
 };
 
 window.databases = {
-  registro: (name,email) => {
+  registro: (name, email, getDate) => {
     refData.push({
       name: name,
-      email: email
+      email: email,
+      date: getDate
     });
   }
 };
+
