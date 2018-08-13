@@ -13,6 +13,7 @@ drawCompany = (data) => {
     });
   }
   companys.innerHTML = ` <option disabled selected>Seleccione la empresa</option>${companySelect}`;
+  companyPerson.remove(companyPerson.selectedIndex);
 };
 
 drawPerson = (data) => {

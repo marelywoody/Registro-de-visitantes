@@ -1,0 +1,109 @@
+body {
+    background-image: url('../assets/pattern-image.jpg');
+}
+
+main, #container-login, #root, .card, .container-info, nav{
+    display: flex;
+}
+h1, h3, .container-info, #email-login, #password-login {
+    font-family: 'Raleway', 'sans-serif';
+}
+h1, #container-login, .name-person, #login-button{
+    background-color: #17202A;
+    color:#F2F4F4;
+
+}
+main{
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+h3 {
+    margin-bottom: 2px;
+    font-size: 2em;
+}
+h1{
+    margin-top: 0;
+    text-align: center;
+    padding: 25px;
+}
+header{
+    margin-top: 0;
+}
+nav{
+    justify-content: flex-end;
+}
+.fa-sign-out-alt:before{
+    font-size: 3em;
+}
+.fa-sign-out-alt:hover{
+   box-shadow: 4px 10px 50px rgba(0, 0, 0, .15);
+  transform: translate3D(0, -2px, 0);
+}
+#root, .container-info, main {
+   flex-direction: column;
+}
+#image-logo{
+    max-width: 40%;
+}
+#container-login{
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+#email-login, #password-login, #login-button {
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#login-button{
+    margin-top: 15px;
+}
+#root {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo-person{
+height: 150px;
+}
+
+.card{
+    align-items: center;
+}
+.container-info{
+    background-color: rgb(33, 47, 61, 0.3); 
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.container-info:hover{
+  box-shadow: 4px 10px 50px rgba(0, 0, 0, .15);
+  transform: translate3D(0, -2px, 0);
+}
+
+.name-person{
+    padding: 10px;
+    margin: 0%;
+}
+.name-person:hover{
+    background-color: #67BBE8;
+}
+
+@media only screen and (max-width: 600px){
+    main{
+        margin-top: 20%;
+    }
+    #login-button{
+        font-size: 2em;
+    }
+    #container-login{
+        width: 20em;
+    }
+    #email-login, #password-login{
+        font-size: 1.5em;
+    }
+};
