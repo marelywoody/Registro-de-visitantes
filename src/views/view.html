@@ -5,25 +5,25 @@
   <title>Document</title>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
   <link rel="stylesheet" href="../css/styles.css">
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Hind|Raleway" rel="stylesheet">
 </head>
 
 <body>
-  <h1 class="text-center" id="sonrie">Sonrie para la foto :D</h1>
+  <h1 class="text-center" id="sonrie">Sonrie para la foto <i class="far fa-smile-beam"></i></h1>
   <div id="canvas-snapshot">
   <video id="player" controls autoplay></video>
   <br>
   <input type="button" value="capturar" id="capture" class="btn-styles">
-  <canvas id="snapshot" width=320 height=240></canvas>
 </div>
 <div id="win" class="modal" name="win">
   <div id="conteiner-info">
-    <span class="close">&times;</span>
+    <span class="close"></span>
+    <canvas id="snapshot" width=280 height=280></canvas>
     <div id="info-user"></div>
   </div>
 </div>
-    <script src="../js/app1.js"></script>
+    <script src="../js/main.js"></script>
   </body>
 </html>
