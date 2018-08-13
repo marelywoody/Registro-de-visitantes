@@ -35,7 +35,7 @@ const printDataUser = (name, email, date) => {
 
   photoPerson.src = '../assets/place-image.png' ;  
   namePerson.innerHTML = 'Nombre: ' + name;
-  emailPerson.innerHTML = 'Correo electrónico: ' + email;
+  emailPerson.innerHTML = 'Asunto: ' + email;
   datePerson.innerHTML = 'Hora de registro: ' + timeToDate;
   container.appendChild(namePerson);
   container.appendChild(emailPerson);
