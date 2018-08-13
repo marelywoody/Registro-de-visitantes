@@ -1,5 +1,5 @@
 // Initialize Firebase
-let config = {
+const config = {
   apiKey: 'AIzaSyDonGb_pXA2D3sBolcKYvRXUkmrfBeOf_Q',
   authDomain: 'registro-visitantes-coworking.firebaseapp.com',
   databaseURL: 'https://registro-visitantes-coworking.firebaseio.com',
