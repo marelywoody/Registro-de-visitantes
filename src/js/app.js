@@ -24,7 +24,8 @@ drawPerson = (data) => {
       let companyValue = companys.value;
       companyValue = getPerson[companyValue];
       Object.values(companyValue).forEach((element) => {
-        let name = element['nombre:'];
+        let name = '';
+        name = element['nombre:'];
         let prue = name;
         console.log(prue);
         person = document.createElement('option');
