@@ -22,6 +22,7 @@ captureButton.addEventListener('click', event => {
   sonrie.style.display = 'none';
   infoFunction();
   win.style.display = 'block';
+  snapshotCanvas.style.display = 'block';
 });
 
 navigator.mediaDevices.getUserMedia({ video: true })
@@ -37,9 +38,9 @@ window.onclick = (event) => {
 };
 
 infoFunction = () => {
-  info.innerHTML = `<h2>Tu registro ha sido exitoso</h2>
-  <p>Se le ha notificado a la persona de tu visita</p>
-  <button class = "btn-styles" id= "btnFinal"></button>`;
+  info.innerHTML = `<h2 class="text-center">Tu registro ha sido exitoso</h2>
+  <p id="p-modal">Se le ha notificado a la persona de tu visita</p>
+  <button class = "btn-styles" id= "btnFinal">Aceptar</button>`;
   let btnNext = document.getElementById('btnFinal');
   btnNext.addEventListener('click', event => {
     window.location.assign('../index.html');
