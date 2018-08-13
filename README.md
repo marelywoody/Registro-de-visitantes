@@ -1,6 +1,6 @@
-# Registro de visitantes proceso de UX
+# **REGISTRO DE VISITANTES PROCESO DE UX**
 
-## PREAMBULO
+## **PREAMBULO**
 
 Los espacios de coworking son oficinas compartidas (a veces hasta más de 50 empresas)  en las que profesionales autónomos, trabajadores y empresarios se dan cita para trabajar, y donde los gestores del espacio intentan conectar y crear oportunidades profesionales y personales entre y para sus miembros. Es común que a diario se reciban visitas ya sea por negocios, entrevistas de trabajo o para solicitar información. 
 
@@ -66,7 +66,7 @@ Se realizó una investigación de campo donde se visitó dos coworking y dos WeW
 
 •	Si va a acceder a las instalaciones del edificio, tiene que registrarse nuevamente en una bitácora y deja identificación.
 
-![WeWork Montes Urales](src/assets/img/weworkMontesUrales)
+![WeWork Montes Urales](src/assets/img/weworkMontesUrales.jpg)
   
 3.- Coworking Terminal1 ubicado en Tehuantepec 170. Se realizó tanto entrevista a la recepcionista como a vigilancia ya que este es quien apoya en llevar el registro de entrada de los visitantes. (Son 37 empresas las que laboran en el lugar y se tiene un aproximado de mínimo 20 visitas por día).
 
@@ -99,7 +99,7 @@ En resumen el registro no fue nada práctico ni agradable, se tiene que pasar po
 
 Se realizó un comparativo con 4  diferentes registros de visitantes que se llevan a cabo de forma digital, para identificar su funcionamiento, y saber qué es lo que se ofrece al mercado.
 
-https://docs.google.com/spreadsheets/d/1T2PmO7OF5h4Thg-H8md70gFtSOtcD7W0NVzN500A5JU/edit#gid=0 
+[Benchmarck](https://docs.google.com/spreadsheets/d/1T2PmO7OF5h4Thg-H8md70gFtSOtcD7W0NVzN500A5JU/edit#gid=0) 
 
 ## ALCANCE
 
@@ -128,6 +128,9 @@ Visitantes  y administradores del coworking en general
 
 ## ENTREVISTAS DE USUARIOS
 
+[Testing de usuarios de producto final](https://drive.google.com/open?id=1J7efq3BaK7oTjRV_guyvnYMhGoxFHotT) 
+
+
 ## CRITERIOS DE DISEÑO
 
 Después de lo investigado se ha pensado en el desarrollo de una aplicación que solucione lo engorroso y tardado que es el registro de visitantes tanto para el visitante como para quien lleva este registro. Se ha pensado en que esta aplicación tiene que llevar estas características.
@@ -155,7 +158,7 @@ Después de lo investigado se ha pensado en el desarrollo de una aplicación que
 
 ## PROTOTIPO FINAL
 
-https://marvelapp.com/4fg7gcf/screen/46664714
+[Prototipo alta fidelidad](https://marvelapp.com/4fg7gcf/screen/46664714)
 
 ## CONCLUSION
 
