@@ -8,6 +8,16 @@ body {
   background-image: url('../assets/img/fondo.jpg');
 }
 
+img {
+  opacity: 0.4;
+  position: relative;
+  top: 2px;
+  width: 18em;
+  padding: 0em;
+  margin: 0em;
+  left: -24em;
+}
+
 #canvas-snapshot {
   align-items: center;
   justify-content: center;
@@ -76,16 +86,20 @@ h1 {
   position: relative;
 }
 
+#name {
+  top: -17em;
+}
+
 #email {
-  top: 2em;
+  top: -15em;
 }
 
 #company {
-  top: 4em;
+  top: -13em;
 }
 
 #company-person {
-  top: 6em;
+  top: -11em;
 }
 .modal {
   display: none; 
@@ -125,7 +139,7 @@ h1 {
 
 #btn-data {
   position: absolute;
-  top: 18em;
+  top: 0em;
   left: 7.6em;
 }
 #p-modal {
@@ -139,20 +153,39 @@ h1 {
   left: 17em;
   font-size: 1.2em;
 }
+
 #capture {
   position: relative;
   top: 4em;
-  left: 6.4em;
+  left: 4.5em;
 }
+
 @media (min-width: 600px) and (max-width: 1024px) {
   
   #name, #email, #company, #company-person {
-    height: 4em;
+    height: 3em;
     width: 26em;
     font-size: 2.5em;
     left: 2em;
     text-align: left;
   }
+
+  #name {
+    top: -4em;
+  }
+
+  #email {
+    top: -2em;
+  }
+
+  #company {
+    top: 0em;
+  }
+
+  #company-person {
+    top: 2em;
+  } 
+
   h1 {
     position: relative;
     left: 1.2em;
@@ -160,27 +193,32 @@ h1 {
     height: 97px;
     width: 16.3em;
   }
+
   p {
     top: 0.9em;
     font-size: 3.6em;
     position: relative;
     left: 1.5em;
   }
+
   #btn-data {
     position: relative;
-    top: 3.9em;
+    top: 2em;
     left: 1.9em;
     height: 2em;
     width: 11em;
     font-size: 5em;
   }
+
   h2 {
     font-size: 4rem;
   }
+
   #p-modal {
     font-size: 3em;
     left: 0em;
   }
+
   #btnFinal {
     left: 4.7em;
     top: 0.2em;
@@ -188,19 +226,33 @@ h1 {
     width: 7em;
     font-size: 2em;
   }
+
   #sonrie {
     width: 10em;
     left: 0.1em
   }
+
   #snapshot {
     width:350px; 
     height:350px;
   }
+
   #capture {
     height: 2em;
     width: 6em;
     font-size: 4em;
     top: 2em;
     left: 0em;
+  }
+
+  img {
+    opacity: 0.4;
+    opacity: 0.4;
+    position: relative;
+    top: -109px;
+    width: 18em;
+    padding: 0em;
+    margin: 0em;
+    left: -20em;
   }
 }
