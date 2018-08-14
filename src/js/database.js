@@ -11,13 +11,18 @@ window.onload = () => {
 };
 
 window.databases = {
-  registro: (name, email, company, companyPerson, getDate) => {
+  registro: (name, email, company, companyPerson,getDate) => {
     refData.push({
       name: name,
       email: email,
       company: company,
       companyPerson: companyPerson,
       date: getDate
+    });
+  },
+  getRegistry: () => {
+    refData.on('child_added', snapshot => {
+      console.log(snapshot.val().companyPerson);
     });
   }
 };
