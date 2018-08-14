@@ -126,11 +126,6 @@ que voy a visitar.
 
 Visitantes  y administradores del coworking en general
 
-## ENTREVISTAS DE USUARIOS
-
-[Testing de usuarios de producto final](https://drive.google.com/open?id=1J7efq3BaK7oTjRV_guyvnYMhGoxFHotT) 
-
-
 ## CRITERIOS DE DISEÑO
 
 Después de lo investigado se ha pensado en el desarrollo de una aplicación que solucione lo engorroso y tardado que es el registro de visitantes tanto para el visitante como para quien lleva este registro. Se ha pensado en que esta aplicación tiene que llevar estas características.
@@ -161,13 +156,16 @@ Se eligió la tipografía Raleway por transmitir gran limpieza, elegancia y equi
 
 ### Identidad
 
+Se pensó en un logo que identificara el producto que representara lo ágil y práctico que es realizar el registro a solo unos clicks de distancia   
+Se mantuvo el color gris haciendo referencia a la identidad del coworkin terminal 1.
+
 ![Logo](src/assets/img/logo.jpg)
 
 ## FLUJO DE USUARIO
 
 ![Flujo usuario ](src/assets/img/flujoUsuario.png)
 
-[Evidencia testing producto terminado](https://drive.google.com/open?id=154z0iYOxoVrntSR2p2Sc7E0jgh8Haj7t)
+[Evidencia flujo de app en producto terminado](https://drive.google.com/open?id=154z0iYOxoVrntSR2p2Sc7E0jgh8Haj7t)
 
 ## USER TESTING
 
@@ -175,10 +173,19 @@ Se eligió la tipografía Raleway por transmitir gran limpieza, elegancia y equi
 
 ![Testing prototipo ](src/assets/img/testeoPrototipo.png)
 
-+ Testing producto terminado a usuarios de coworking 
 
-[Testeo del flujo de usuario](https://drive.google.com/open?id=1J7efq3BaK7oTjRV_guyvnYMhGoxFHotT)
+Observaciones: 
 
+Al realizar el testing de usuario con el prototipo de alta fidelidad y recibir feedback de los testeados, se tomó la decisión de agregar un campo extra en el formulario, para introducir el motivo de la visita,  ya que muchas veces estas visitas no son planeadas y es necesario explicar el motivo de la misma para que se permita el acceso.
+
++ Se realizó el testing a usuarios del coworking con el producto terminado, para identificar el flujo de este. Se les pidió que narraran los pasos que seguían para el registro para identificar áreas de oportunidad y lo intuitivo del diseño.
+
+[Testing de usuarios de producto final](https://drive.google.com/open?id=1J7efq3BaK7oTjRV_guyvnYMhGoxFHotT) 
+
+Observaciones: 
+El testeo se realizó sin dar indicaciones claras sobre los pasos a seguir, aun así los usuarios llevaron a cabo el registro de una forma ágil y rápida, comprobando el objetivo de la app.
+
+[Evidencia testing producto terminado](https://drive.google.com/open?id=154z0iYOxoVrntSR2p2Sc7E0jgh8Haj7t)
 ## PROTOTIPO FINAL
 
 [Prototipo visitante](https://marvelapp.com/4fg7gcf/screen/46664714)
@@ -189,6 +196,40 @@ Se eligió la tipografía Raleway por transmitir gran limpieza, elegancia y equi
 
 ## AREAS A MEJORAR
 
-## APRENDIZAJES 
++ Se seguirá refactorizando el código para llegar al alcance esperado. 
+
++ Al hacer el ultimo testeo de aplicación se identificó un área de oportunidad para incluir la opción de registro de hora de salida, ya que es un dato muy importante para el control de visitantes en dado caso de un siniestro (identificar quien sigue dentro del edificio), o por seguridad de los miembros del espacio.
+
+
+## APRENDIZAJES
+
+Es de suma importancia llevar un gran trabajo colaborativo tanto en la parte de investigación como del desarrollo de la aplicación. La comunicación asertiva y el enfoque de mismos objetivos son puntos clave para el resultado del producto.
 
 ## USO DELA APLICACION
+
++Registro visitante
+
+1.	Ingresar a la pagina principal : 
+[Registro visitante](https://alppacat.github.io/Registro-de-visitantes/src/index.html)
+
+2.	Llena el formulario con tus datos da click. Da click en el botón siguiente.
+
+3.	Sonríe para la foto, captura con el botón “capturar”.
+
+4.	Espera confirmación de registro, da click en botón aceptar. Y espera un momento en lo que te atienden.
+
++Registro administrador
+
+1.-Ingresar a la página principal de administrador :
+ [Registro administrador](https://alppacat.github.io/Registro-de-visitantes/dashboard-admi/index.html)
+
+2.- Ingresa los siguientes datos (proporcionados a cada administrador):
+
+•	 correo: admi@mail.com
+
+•	Contraseña: 123456
+
+3.-La página te dirige a la base de datos donde puedes consultar a los datos de las visitas registradas
+
+4.-Para cerrar sesión da click en la flecha superior del lado derecho. 
+
