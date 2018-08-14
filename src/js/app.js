@@ -20,6 +20,10 @@ drawPerson = (data) => {
   let person;
   companyPerson.innerHTML = '<option disabled selected> Selecciona a la persona que viene a visitar</option>';
   companys.addEventListener('change', event => {
+    for (let i = 0; companyPerson.length > 0; i++) {
+      companyPerson.remove(companyPerson);
+    }
+    companyPerson.innerHTML = '<option disabled selected> Selecciona a la persona que viene a visitar</option>';
     for (i in data) {
       const getPerson = data[i];
       let companyValue = companys.value;
