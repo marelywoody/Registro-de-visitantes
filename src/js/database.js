@@ -22,7 +22,8 @@ window.databases = {
   },
   getRegistry: () => {
     refData.on('child_added', snapshot => {
-      console.log(snapshot.val().companyPerson);
+      const drawName = snapshot.val().name;
+      // console.log(drawName(drawName.length()-1));
     });
   }
 };
