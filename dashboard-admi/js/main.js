@@ -10,14 +10,14 @@ const getUserData = () => {
       let email = dataUser[userUid].email;
       let date = dataUser[userUid].date;
       let company = dataUser[userUid].company;
-      let companyPerson = dataUser[userUid].companyPerson;
-      printDataUser(name, email, date, company, companyPerson);
+      let companyPerson = dataUser[userUid].companyPerson;      
+      printDataUser(name, email, company, companyPerson, date);
     }; 
   });
 };
 getUserData();
 
-const printDataUser = (name, email, date, company, companyPerson) => {
+const printDataUser = (name, email, company, companyPerson, date) => {
   const root = document.getElementById('root'); 
   const card = document.createElement('div');
   const container = document.createElement('div');
@@ -28,7 +28,7 @@ const printDataUser = (name, email, date, company, companyPerson) => {
   const datePerson = document.createElement('p');
   const photoPerson = document.createElement('img');
   const time = date;
-  const timeToDate = new Date(time)
+  const timeToDate = new Date(time);
 
   card.className = 'card';
   container.className = 'container-info';
@@ -40,11 +40,11 @@ const printDataUser = (name, email, date, company, companyPerson) => {
   datePerson.className = 'date-person';
 
   photoPerson.src = '../assets/place-image.png' ;  
-  namePerson.innerHTML = 'Nombre: ' + name;
-  emailPerson.innerHTML = 'Asunto: ' + email;
-  namePerson.innerHTML = company;
-  personCompany.innerHTML = companyPerson;
-  datePerson.innerHTML = 'Hora de registro: ' + timeToDate;
+  namePerson.innerHTML = ' <i class="fas fa-user-circle"></i> Nombre: ' + name;
+  emailPerson.innerHTML = '<i class="fas fa-edit"></i> Asunto: ' + email;
+  nameCompany.innerHTML = '<i class="far fa-building"></i> Compañía: ' + company;
+  personCompany.innerHTML = '<i class="fas fa-users"></i> Host: ' + companyPerson;
+  datePerson.innerHTML = '<i class="far fa-clock"></i> Hora de registro: ' + timeToDate;
   container.appendChild(namePerson);
   container.appendChild(emailPerson);
   container.appendChild(nameCompany);
