@@ -10,7 +10,7 @@ const getUserData = () => {
       let email = dataUser[userUid].email;
       let date = dataUser[userUid].date;
       let company = dataUser[userUid].company;
-      let companyPerson = dataUser[userUid].companyPerson;
+      let companyPerson = dataUser[userUid].companyPerson;      
       printDataUser(name, email, date, company, companyPerson);
     }; 
   });
@@ -42,7 +42,7 @@ const printDataUser = (name, email, date, company, companyPerson) => {
   photoPerson.src = '../assets/place-image.png' ;  
   namePerson.innerHTML = 'Nombre: ' + name;
   emailPerson.innerHTML = 'Asunto: ' + email;
-  namePerson.innerHTML = company;
+  nameCompany.innerHTML = company;
   personCompany.innerHTML = companyPerson;
   datePerson.innerHTML = 'Hora de registro: ' + timeToDate;
   container.appendChild(namePerson);
