@@ -42,6 +42,7 @@ infoFunction = () => {
   <p id="p-modal">Se le ha notificado a la persona de tu visita</p>
   <button class = "btn-styles" id= "btnFinal">Aceptar</button>`;
   let btnNext = document.getElementById('btnFinal');
+  databases.getRegistry();
   btnNext.addEventListener('click', event => {
     window.location.assign('../index.html');
   });

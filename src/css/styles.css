@@ -150,14 +150,19 @@ h1 {
 #btnFinal {
   position: relative;
   top: 0.5em;
-  left: 17em;
+  left: 16em;
   font-size: 1.2em;
 }
 
 #capture {
   position: relative;
-  top: 4em;
-  left: 4.5em;
+  top: 1em;
+  left: 15em;
+}
+
+#snapshot {
+  position: relative;
+  left: 16em;
 }
 
 @media (min-width: 600px) and (max-width: 1024px) {
@@ -220,7 +225,7 @@ h1 {
   }
 
   #btnFinal {
-    left: 4.7em;
+    left: 5em;
     top: 0.2em;
     height: 3em;
     width: 7em;
@@ -235,6 +240,7 @@ h1 {
   #snapshot {
     width:350px; 
     height:350px;
+    left: 6.4em;
   }
 
   #capture {
@@ -242,7 +248,7 @@ h1 {
     width: 6em;
     font-size: 4em;
     top: 2em;
-    left: 0em;
+    left: 2em;
   }
 
   img {

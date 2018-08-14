@@ -19,5 +19,11 @@ window.databases = {
       companyPerson: companyPerson,
       date: getDate
     });
+  },
+  getRegistry: () => {
+    refData.on('child_added', snapshot => {
+      const drawName = snapshot.val().name;
+      // console.log(drawName(drawName.length()-1));
+    });
   }
 };
