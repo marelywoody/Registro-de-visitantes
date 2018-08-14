@@ -45,7 +45,7 @@ btnData.addEventListener('click', event => {
   const getPerson = companyPerson.value;
   const getDate = (new Date).getTime();
   if (getName !== '' && getEmail !== '' && getCompany !== 'Seleccione la empresa' && getPerson !== 'Selecciona a la persona que viene a visitar') {
-    databases.registro(getName, getEmail, getCompany, getPerson, getDate);
+    databases.registro(getName, getEmail, getDate, getCompany, getPerson);
     window.location.assign('../src/views/view.html');
   } else {
     alert('Complete el registro');
