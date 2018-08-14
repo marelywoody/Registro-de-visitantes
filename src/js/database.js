@@ -19,5 +19,10 @@ window.databases = {
       companyPerson: companyPerson,
       date: getDate
     });
+  },
+  getRegistry: () => {
+    refData.on('child_added', snapshot => {
+      console.log(snapshot.val().companyPerson);
+    });
   }
 };
