@@ -218,6 +218,7 @@ Es de suma importancia llevar un gran trabajo colaborativo tanto en la parte de 
 
 4.	Espera confirmación de registro, da click en botón aceptar. Y espera un momento en lo que te atienden.
 
+
 +Registro administrador
 
 1.-Ingresar a la página principal de administrador :
